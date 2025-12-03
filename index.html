@@ -14,52 +14,52 @@
 
     <body>
 
-        <section>
+        <div class="form" id="first">
             <h4>Возведение в степень - pow(x, n)</h4>
             <div class="inputs">
                 <input type="number" id="pow-x" placeholder="x" value="2">
                 <input type="number" id="pow-n" placeholder="n" value="5">
                 <button onclick="testPow()">Вычислить</button>
             </div>
-            <div id="pow-result"></div>
-        </section>
+            <div class="result"id="pow-result"></div>
+        </div>
 
-        <section>
+        <div class="form">
             <h4>Наибольший общий делитель(НОД) - gcd(a, b)</h4>
             <div class="inputs">
                 <input type="number" id="gcd-a" placeholder="a" value="15">
                 <input type="number" id="gcd-b" placeholder="b" value="25">
                 <button onclick="testgcd()">Вычислить</button>
             </div>
-            <div id="gcd-result"></div>
-        </section>
+            <div class="result" id="gcd-result"></div>
+        </div>
 
-        <section>
+        <div class="form">
             <h4>Наименьшая цифра в неотрицательном числе - minDigit(x)</h4>
             <div class="inputs">
                 <input type="number" id="minDigit-x" placeholder="a" value="634759">
                 <button onclick="testMin()">Вычислить</button>
             </div>
-            <div id="minDigit-result"></div>
-        </section>
+            <div class="result" id="minDigit-result"></div>
+        </div>
 
-        <section>
+        <div class="form">
             <h4>Pluralization - pluralizeRecords(n)</h4>
             <div class="inputs">
                 <input type="number" id="pluralize-n" placeholder="n" value="21">
                 <button onclick="testPluralizeRecords()">Вычислить</button>
             </div>
-            <div id="pluralize-result"></div>
-        </section>
+            <div class="result" id="pluralize-result"></div>
+        </div>
 
-        <section>
+        <div class="form" id="last">
             <h4>Числа Фибоначчи - fibonachi(n)</h4>
             <div class="inputs">
                 <input type="number" id="fibonachi-n" placeholder="n" value="4">
                 <button onclick="testFibonachi()">Вычислить</button>
             </div>
-            <div id="fibonachi-result"></div>
-        </section>
+            <div class="result" id="fibonachi-result"></div>
+        </div>
 
         <script type="text/javascript" src="scripts/script.js"></script>
     </body>
