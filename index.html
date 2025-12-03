@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Ганичева Виктория Сергеевна, 241-361, Лабораторная работа №6</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100..900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/styles.css">
+    </head>
+
+    <body>
+
+        <section>
+            <h4>Возведение в степень - pow(x, n)</h4>
+            <div class="inputs">
+                <input type="number" id="pow-x" placeholder="x" value="2">
+                <input type="number" id="pow-n" placeholder="n" value="5">
+                <button onclick="testPow()">Вычислить</button>
+            </div>
+            <div id="pow-result"></div>
+        </section>
+
+        <section>
+            <h4>Наибольший общий делитель(НОД) - gcd(a, b)</h4>
+            <div class="inputs">
+                <input type="number" id="gcd-a" placeholder="a" value="15">
+                <input type="number" id="gcd-b" placeholder="b" value="25">
+                <button onclick="testgcd()">Вычислить</button>
+            </div>
+            <div id="gcd-result"></div>
+        </section>
+
+        <section>
+            <h4>Наименьшая цифра в неотрицательном числе - minDigit(x)</h4>
+            <div class="inputs">
+                <input type="number" id="minDigit-x" placeholder="a" value="634759">
+                <button onclick="testMin()">Вычислить</button>
+            </div>
+            <div id="minDigit-result"></div>
+        </section>
+
+        <section>
+            <h4>Pluralization - pluralizeRecords(n)</h4>
+            <div class="inputs">
+                <input type="number" id="pluralize-n" placeholder="n" value="21">
+                <button onclick="testPluralizeRecords()">Вычислить</button>
+            </div>
+            <div id="pluralize-result"></div>
+        </section>
+
+        <section>
+            <h4>Числа Фибоначчи - fibonachi(n)</h4>
+            <div class="inputs">
+                <input type="number" id="fibonachi-n" placeholder="n" value="4">
+                <button onclick="testFibonachi()">Вычислить</button>
+            </div>
+            <div id="fibonachi-result"></div>
+        </section>
+
+        <script type="text/javascript" src="scripts/script.js"></script>
+    </body>
+</html>
